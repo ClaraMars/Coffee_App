@@ -1,0 +1,11 @@
+.welcome-section {
+    padding: 10em 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-text {
+    padding-right: 15em;
+    text-align: left;
+}
