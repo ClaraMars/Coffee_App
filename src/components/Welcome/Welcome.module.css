@@ -1,11 +1,50 @@
 .welcome-section {
-    padding: 10em 6em;
+    width: 100vw;
+    padding: 8em 1em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .welcome-text {
-    padding-right: 15em;
     text-align: left;
+    
+    & h3 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    & p.subtitle {
+        margin: 2em 0;
+        padding: 0 1.5em;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.5;
+        border-left: 4px solid #CD9452;
+    }
+
+    & p.lorem {
+        color: gray;
+        padding: 0 1.5em 0 .5em;
+        line-height: 2;
+    }
+
+    & button {
+        margin: 2em .5em;
+        padding: 1.3em 2.6em;
+        font-family: "Poppins", sans-serif;
+        font-size: .9rem;
+        letter-spacing: .15em;
+        color: white;
+        background-color: #CD9452;
+        border-radius: .2rem;
+    }
+}
+
+.welcome-image {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 3em;
 }
