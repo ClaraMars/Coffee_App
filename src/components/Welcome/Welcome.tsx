@@ -3,7 +3,6 @@ import WelcomeImage from "../../assets/welcome.webp";
 
 const Welcome = () => {
     return (
-        <>
         <section className={classes["welcome-section"]}>
             <img className={classes["welcome-image"]} src={WelcomeImage} alt="Welcome to Litho Cafe & Restaurant"/>
             <div className={classes["welcome-text"]}>
@@ -13,10 +12,6 @@ const Welcome = () => {
                 <button>EXPLORE MORE</button>
             </div>
         </section>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi consequatur debitis voluptatibus ratione, nisi dolorem quaerat soluta velit. Laborum mollitia maxime dicta dolores sint eveniet cum tempore culpa, consequuntur sunt magni perferendis quis perspiciatis tempora, blanditiis, repellendus laboriosam suscipit ipsa distinctio at hic optio eligendi. Blanditiis modi a explicabo quae, quod aspernatur veniam ex harum. Numquam, assumenda. Iusto tempora voluptas repudiandae rerum corporis sint assumenda voluptatibus omnis facere atque nesciunt necessitatibus, nemo quasi nobis, officiis earum! Veritatis maxime vero suscipit, pariatur impedit quibusdam quam. Laborum ratione placeat itaque alias iusto enim accusantium modi, perferendis animi, dolorum voluptas, optio quisquam?</div>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi consequatur debitis voluptatibus ratione, nisi dolorem quaerat soluta velit. Laborum mollitia maxime dicta dolores sint eveniet cum tempore culpa, consequuntur sunt magni perferendis quis perspiciatis tempora, blanditiis, repellendus laboriosam suscipit ipsa distinctio at hic optio eligendi. Blanditiis modi a explicabo quae, quod aspernatur veniam ex harum. Numquam, assumenda. Iusto tempora voluptas repudiandae rerum corporis sint assumenda voluptatibus omnis facere atque nesciunt necessitatibus, nemo quasi nobis, officiis earum! Veritatis maxime vero suscipit, pariatur impedit quibusdam quam. Laborum ratione placeat itaque alias iusto enim accusantium modi, perferendis animi, dolorum voluptas, optio quisquam?</div>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi consequatur debitis voluptatibus ratione, nisi dolorem quaerat soluta velit. Laborum mollitia maxime dicta dolores sint eveniet cum tempore culpa, consequuntur sunt magni perferendis quis perspiciatis tempora, blanditiis, repellendus laboriosam suscipit ipsa distinctio at hic optio eligendi. Blanditiis modi a explicabo quae, quod aspernatur veniam ex harum. Numquam, assumenda. Iusto tempora voluptas repudiandae rerum corporis sint assumenda voluptatibus omnis facere atque nesciunt necessitatibus, nemo quasi nobis, officiis earum! Veritatis maxime vero suscipit, pariatur impedit quibusdam quam. Laborum ratione placeat itaque alias iusto enim accusantium modi, perferendis animi, dolorum voluptas, optio quisquam?</div>
-        </>
     );
 }
 

@@ -1,6 +1,6 @@
 .welcome-section {
     width: 100vw;
-    padding: 8em 1em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,6 +9,7 @@
 
 .welcome-text {
     text-align: left;
+    margin-bottom: 2em;
     
     & h3 {
         font-size: 2rem;
@@ -29,10 +30,11 @@
         color: gray;
         padding: 0 1.5em 0 .5em;
         line-height: 2;
+        font-size: 1.2rem;
     }
 
     & button {
-        margin: 2em .5em;
+        margin: 2.5em .5em;
         padding: 1.3em 2.6em;
         font-family: "Poppins", sans-serif;
         font-size: .9rem;
@@ -40,11 +42,49 @@
         color: white;
         background-color: #CD9452;
         border-radius: .2rem;
+        
+        &:hover {
+            cursor: pointer;
+            color: #CD9452;
+            background-color: white;
+            border: 3px solid #CD9452;
+        }
     }
 }
 
 .welcome-image {
     width: 100vw;
     height: auto;
-    margin-bottom: 3em;
+    margin: 3em 0;
+}
+
+@media screen and (min-width: 768px) {
+    .welcome-section {
+        flex-direction: row;
+        position: relative;
+        z-index: 10;
+        background-color: rebeccapurple;
+    }
+
+    .welcome-text {
+        width: 50vw;
+        margin: 0 2em;
+        text-align: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .welcome-image {
+        width: 50vw;
+        height: auto;
+        margin: 0 2em;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
 }
